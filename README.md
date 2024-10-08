@@ -3,8 +3,11 @@
 Super simple 6502 assembler that supports all 56 opcodes and 13 addressing modes.
 
 Usage:
+
   OPCODE OPERAND COMMENT
+  
 e.g.
+
   LDA #$FF /this loads the accumulator with the value $FF (this is immediate addressing mode)
 
 Comments must start with a whitespace and hyphen (" /") everything after this is ignored.
